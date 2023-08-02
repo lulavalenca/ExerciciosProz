@@ -1,7 +1,7 @@
 tomates = True
 batatas = False
 
-for dia in range(1, 6):  
+for dia in range(1, 8):  
     if tomates and not batatas:
         print(f"Regar os tomates - Dia {dia}")
         
