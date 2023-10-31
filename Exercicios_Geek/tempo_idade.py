@@ -1,0 +1,11 @@
+# Recebe a idade do trabalhador como entrada do usuário
+idade = int(input("Digite a idade do trabalhador: "))
+
+# Recebe o tempo de serviço como entrada do usuário (em anos)
+tempo_servico = int(input("Digite o tempo de serviço do trabalhador (em anos): "))
+
+# Verifica se o trabalhador pode se aposentar com base nas condições
+if idade >= 65 or tempo_servico >= 30 or (idade >= 60 and tempo_servico >= 25):
+    print("O trabalhador pode se aposentar.")
+else:
+    print("O trabalhador não pode se aposentar ainda.")
