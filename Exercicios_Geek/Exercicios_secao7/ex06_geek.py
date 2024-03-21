@@ -27,4 +27,8 @@ def encontrar_menor(vetor):
 
 vetor = ler_vetor(10)
 
-maior
+maior = encontrar_maior(vetor)
+menor = encontrar_menor(vetor)
+
+print("O maior elemento do vetor é:", maior)
+print("O menor elemento do vetor é:", menor)
